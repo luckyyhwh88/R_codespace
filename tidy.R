@@ -64,3 +64,9 @@ cms_patient_experience |>
     names_from = measure_cd, 
     values_from = prf_rate
   )
+
+
+students <- tribble(
+  ~name, ~score,
+  "David", 100)
+students
